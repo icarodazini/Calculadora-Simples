@@ -7,7 +7,6 @@ public class FuncaoDivisao {
     public static void dividir() {
         Scanner ScannerCapturaEntradaDoUsuario = new Scanner(System.in);
 
-
         System.out.println("Informe o primeiro numero");
         long num1 = ScannerCapturaEntradaDoUsuario.nextInt();
 
@@ -18,8 +17,6 @@ public class FuncaoDivisao {
         System.out.println("Seu resultado é " + resultado);
 
         ScannerCapturaEntradaDoUsuario.close();
-
     }
-
 }
 

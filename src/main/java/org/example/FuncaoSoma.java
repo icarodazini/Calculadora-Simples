@@ -7,7 +7,6 @@ public class FuncaoSoma {
     public static void somar() {
         Scanner ScannerCapturaEntradaDoUsuario = new Scanner(System.in);
 
-
         System.out.println("Informe o primeiro numero");
         long num1 = ScannerCapturaEntradaDoUsuario.nextInt();
 
@@ -18,7 +17,5 @@ public class FuncaoSoma {
         System.out.println("Seu resultado é " + resultado);
 
         ScannerCapturaEntradaDoUsuario.close();
-
     }
-
 }

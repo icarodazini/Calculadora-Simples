@@ -6,9 +6,8 @@ public class funcoes {
     public static void funcao() {
         String operacao;
         Scanner entrada = new Scanner(System.in);
-        System.out.print("Escolha sua operação somar, subtrair, multiplicar, dividir ");
+        System.out.println("Escolha sua operação: somar, subtrair, multiplicar, dividir.");
         operacao = entrada.nextLine();
-
 
         switch( operacao )
         {
@@ -30,9 +29,6 @@ public class funcoes {
 
             default:
                 System.out.printf("Você digitou uma operação inválida.");
-
         }
-
-
     }
 }
